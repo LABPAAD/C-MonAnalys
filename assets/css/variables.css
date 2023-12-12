@@ -1,0 +1,9 @@
+:root {
+    /* Variables */
+    --primary-color: #0A1128;
+    --secondary-color: #8c14dc;
+    --white-color: #ffffff;
+    --light-gray-color: #EEEEEE;
+    --placeholder-color: #bababa;
+    --gap: 30px;
+}

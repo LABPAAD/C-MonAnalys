@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 50%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: var(--primary-color);
+    line-height: 1.5;
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+    body {
+        transform: scale(0.85);
+        transform-origin: top;
+        width: 118%;
+        height: 118%;
+        margin-left: -9%;
+        margin-bottom: -100%;
+    }
+}
+
+
+/* #all-content {
+    /*Firefox mais antigo*/
+/* -moz-transform-origin: 100% 100%;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 60px;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 45px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
