@@ -38,7 +38,7 @@
 
 .menu ul li a {
     display: block;
-    padding: 20px;
+    padding: 20px 15px;
     font-size: 18px;
     color: var(--primary-color);
     position: relative;
